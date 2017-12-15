@@ -30,6 +30,27 @@ class User extends Authenticatable
         'admin'
     ];
 
+    /* 
+     * Mutador para el nombre
+     */
+    public function setNameAttribute($valor) {
+        $this->attributes['name'] = strtolower($valor);
+    }
+
+    /* 
+     * Getter para el nombre
+     */
+    public function getNameAttribute($valor) {
+        return ucwords($valor);
+    }
+
+    /* 
+     * Mutador para el email
+     */
+    public function setEmailAttribute($valor) {
+        $this->attributes['email'] = strtolower($valor);
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *
