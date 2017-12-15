@@ -3,16 +3,60 @@
 	{
 		"selected_items":
 		[
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"U",
+				"USUARIO_NO_VERIFICADO"
+			],
+			[
+				"catego",
+				"$categorias〔variable〕"
+			],
+			[
+				"ca",
+				"cantidadCategorias"
+			],
+			[
+				"can",
+				"$cantidadUsuarios〔variable〕"
+			],
+			[
+				"be",
+				"belongsToMany〔function〕"
+			],
+			[
+				"Pro",
+				"PRODUCTO_DISPONIBLE"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "app/Http/Controllers/User/UserController.php",
+			"settings":
+			{
+				"buffer_size": 3516,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2017_12_12_051526_create_transactions_table.php",
+			"settings":
+			{
+				"buffer_size": 918,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/User.php",
 			"settings":
 			{
-				"buffer_size": 511,
-				"encoding": "UTF-8",
+				"buffer_size": 1122,
 				"line_ending": "Unix"
 			}
 		}
@@ -54,10 +98,39 @@
 	},
 	"expanded_folders":
 	[
-		"/C/laragon/www/APIRestful"
+		"/C/laragon/www/APIRestful",
+		"/C/laragon/www/APIRestful/app",
+		"/C/laragon/www/APIRestful/app/Http",
+		"/C/laragon/www/APIRestful/app/Http/Controllers",
+		"/C/laragon/www/APIRestful/app/Http/Controllers/User",
+		"/C/laragon/www/APIRestful/database",
+		"/C/laragon/www/APIRestful/database/factories",
+		"/C/laragon/www/APIRestful/database/migrations",
+		"/C/laragon/www/APIRestful/database/seeds",
+		"/C/laragon/www/APIRestful/routes"
 	],
 	"file_history":
 	[
+		"/C/laragon/www/APIRestful/database/factories/ModelFactory.php",
+		"/C/laragon/www/APIRestful/database/seeds/DatabaseSeeder.php",
+		"/C/laragon/www/APIRestful/app/User.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_10_12_000000_create_users_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051436_create_products_table.php",
+		"/C/laragon/www/APIRestful/readme.md",
+		"/C/laragon/www/APIRestful/app/Product.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051557_create_categories_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_14_033633_category_product_table.php",
+		"/C/laragon/www/APIRestful/app/Transaction.php",
+		"/C/laragon/www/APIRestful/database/migrations/2017_12_12_051526_create_transactions_table.php",
+		"/C/laragon/www/APIRestful/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/laragon/www/APIRestful/app/Buyer.php",
+		"/C/laragon/www/APIRestful/app/Category.php",
+		"/C/laragon/www/APIRestful/app/Providers/AppServiceProvider.php",
+		"/C/laragon/www/APIRestful/app/Seller.php",
+		"/C/laragon/www/APIRestful/.env",
+		"/C/laragon/www/APIRestful/routes/web.php",
+		"/C/laragon/www/APIRestful/routes/api.php",
+		"/C/laragon/www/APIRestful/app/Providers/RouteServiceProvider.php",
 		"/C/Users/Gatop/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
 		"/C/Users/Gatop/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
 		"/C/laragon/www/APIRestful/hey",
@@ -77,7 +150,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -91,6 +164,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\t\t\t",
 			"hi",
 			"()",
 			"--------------------')"
@@ -101,6 +175,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -111,24 +186,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/User.php",
+					"file": "app/Http/Controllers/User/UserController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 511,
+						"buffer_size": 3516,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								3507,
+								3507
 							]
 						],
 						"settings":
@@ -139,10 +214,70 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 1710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database/migrations/2017_12_12_051526_create_transactions_table.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -187,7 +322,7 @@
 	"project": "APIRestful.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -210,12 +345,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 782.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -225,7 +360,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 378.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
