@@ -15,6 +15,8 @@ class UserController extends ApiController
     public function __construct()
     {
         $this->middleware('client.credentials')->only(['store', 'resend']);
+        // Adding the authentication to te other methods
+        $this->middleware('auth:api')->except(['store', 'verify', 'resend']);
 
         // Implementing middleware to allow the names of the attributes in the put - patch and store request
         $this->middleware('transform.input:'. UserTransformer::class)->only(['store', 'update']);

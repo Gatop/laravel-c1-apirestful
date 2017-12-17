@@ -14,6 +14,8 @@ class CategoryController extends ApiController
     {
         // Adding the authentication in the api with passport
         $this->middleware('client.credentials')->only(['index', 'show']);
+        // Adding the authentication to te other methods
+        $this->middleware('auth:api')->except(['index', 'show']);
         // Implementing middleware to allow the names of the attributes in the put - patch and store request
         // We use Category transformer because is the one that is being created
         $this->middleware('transform.input:'. CategoryTransformer::class)->only(['store', 'update']);

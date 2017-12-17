@@ -13,6 +13,8 @@ class ProductCategoryController extends ApiController
     {
         // Adding the authentication in the api with passport
         $this->middleware('client.credentials')->only(['index']);
+        // Adding the authentication to te other methods
+        $this->middleware('auth:api')->except(['index']);
     }
     /**
      * Display a listing of the resource.
