@@ -4,6 +4,8 @@ namespace App\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 trait ApiResponser
 {
@@ -31,6 +33,8 @@ trait ApiResponser
         $collection = $this->filterData($collection, $transformer);
         // Sorts the collection using the transform mapping of the attributes
         $collection = $this->sortData($collection, $transformer);
+        // Paginates the collection before the transform and the response
+        $collection = $this->paginate($collection);
         $collection = $this->transformData($collection, $transformer);
 
         return $this->successResponse($collection, $code);
@@ -86,5 +90,36 @@ trait ApiResponser
         $transformation = fractal($data, new $transformer);
 
         return $transformation->toArray();
+    }
+
+    // Paginates a collection with the values sended
+        protected function paginate(Collection $collection)
+    {
+        $rules = [
+            'per_page' => 'integer|min:2|max:50'
+        ];
+
+        Validator::validate(request()->all(), $rules);
+        // Paginator that resolves the actual page
+        $page = LengthAwarePaginator::resolveCurrentPage();
+        // Predifined length
+        $perPage = 15;
+
+        // Set the parameter of the number of the items if is set on the request
+        if (request()->has('per_page')) {
+            $perPage = (int) request()->per_page;
+        }
+
+        // Splits the collection according with the received parameters
+        $results = $collection->slice(($page - 1) * $perPage, $perPage)->values();
+
+        // Instance of the paginator
+        $paginated = new LengthAwarePaginator($results, $collection->count(), $perPage, $page, [
+            'path' => LengthAwarePaginator::resolveCurrentPath(),
+        ]);
+
+        // Allowing the others parameters sended in the request (sortby, filters)
+        $paginated->appends(request()->all());
+        return $paginated;
     }
 }
