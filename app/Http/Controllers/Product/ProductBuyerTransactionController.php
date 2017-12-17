@@ -8,9 +8,19 @@ use App\Transaction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\ApiController;
+use App\Transformers\TransactionTransformer;
 
 class ProductBuyerTransactionController extends ApiController
 {
+    public function __construct()
+    {
+        parent::__construct();
+
+        // Implementing middleware to allow the names of the attributes in the put - patch and store request
+        // We use Transaction transformer because is the one that is being created
+        $this->middleware('transform.input:'. TransactionTransformer::class)->only(['store']);
+    }
+
     /**
      * Store a newly created resource in storage.
      *

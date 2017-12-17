@@ -8,10 +8,19 @@ use App\Product;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Storage;
+use App\Transformers\ProductTransformer;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class SellerProductController extends ApiController
 {
+    public function __construct()
+    {
+        parent::__construct();
+
+        // Implementing middleware to allow the names of the attributes in the put - patch and store request
+        // We use Product transformer because is the one that is being created
+        $this->middleware('transform.input:'. ProductTransformer::class)->only(['store', 'update']);
+    }
     /**
      * Display a listing of the resource.
      *

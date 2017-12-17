@@ -6,11 +6,19 @@ use App\User;
 use App\Mail\UserCreated;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Transformers\UserTransformer;
 use App\Http\Controllers\ApiController;
 
 
 class UserController extends ApiController
 {
+    public function __construct()
+    {
+        parent::__construct();
+
+        // Implementing middleware to allow the names of the attributes in the put - patch and store request
+        $this->middleware('transform.input:'. UserTransformer::class)->only(['store', 'update']);
+    }
     /**
      * Display a listing of the resource.
      *

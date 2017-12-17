@@ -5,9 +5,19 @@ namespace App\Http\Controllers\Category;
 use App\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
+use App\Transformers\CategoryTransformer;
 
 class CategoryController extends ApiController
 {
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        // Implementing middleware to allow the names of the attributes in the put - patch and store request
+        // We use Category transformer because is the one that is being created
+        $this->middleware('transform.input:'. CategoryTransformer::class)->only(['store', 'update']);
+    }
     /**
      * Display a listing of the resource.
      *
