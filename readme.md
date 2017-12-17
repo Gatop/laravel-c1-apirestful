@@ -1,9 +1,10 @@
 ## ApiRest Example
 
-![Alt Text]()
+![Alt Text](https://github.com/Gatop/laravel-c1-apirestful/blob/master/doc/doc-gif.gif)
 
 ## ApiRest requests
 
+ * <a href="https://github.com/Gatop/laravel-c1-apirestful/blob/master/doc/ApiRESTful%20Laravel.postman_collection.json">**Postman Requests**</a>
 
 ## Endpoints APIRest
 
