@@ -6,6 +6,7 @@ use Exception;
 use App\Traits\ApiResponser;
 use Illuminate\Database\QueryException;
 use Illuminate\Auth\AuthenticationException;
+use Illuminate\Session\TokenMismatchException;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
@@ -96,6 +97,10 @@ class Handler extends ExceptionHandler
             }
         }
 
+        if ($exception instanceof TokenMismatchException) {
+            return redirect()->back()->withInput($request->input());
+        }
+
         if (config('app.debug')) {
             return parent::render($request, $exception);
         }
@@ -112,6 +117,10 @@ class Handler extends ExceptionHandler
      */
     protected function unauthenticated($request, AuthenticationException $exception)
     {
+        // Validation to return exception to front end
+        if ($this->isFrontend($request)) {
+            return redirect()->guest('login');
+        }
         return $this->errorResponse('No Autenticado', 401);
     }
 
@@ -126,6 +135,26 @@ class Handler extends ExceptionHandler
     {
         $errors = $e->validator->errors()->getMessages();
 
+        // Validation to return exception to front end
+        if ($this->isFrontend($request)) {
+            return $request->ajax() ? response()->json($errors, 422) : redirect()
+                ->back()
+                ->withInput($request->input())
+                ->withErrors($errors);
+        }
+
         return $this->errorResponse($errors, 422);
+    }
+
+    /**
+     * Function to know if the request is from the frontend part
+     * check the request and the middlewares used. At least one of the should be web
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return Boolean
+     */
+    private function isFrontend($request)
+    {
+        return $request->acceptsHtml() && collect($request->route()->middleware())->contains('web');
     }
 }
