@@ -23,6 +23,14 @@ class UserTransformer extends TransformerAbstract
             'fechaCreacion' => (string)$user->created_at,
             'fechaActualizacion' => (string)$user->updated_at,
             'fechaEliminacion' => isset($user->deleted_at) ? (string)$user->deleted_at : null,
+
+            // HateOas Implementation for users
+            'links' => [
+                [
+                    'rel' => 'self',
+                    'href' => route('users.show', $user->id),
+                ],
+            ]
         ];
     }
 

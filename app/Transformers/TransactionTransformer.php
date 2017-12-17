@@ -22,6 +22,30 @@ class TransactionTransformer extends TransformerAbstract
             'fechaCreacion' => (string)$transaction->created_at,
             'fechaActualizacion' => (string)$transaction->updated_at,
             'fechaEliminacion' => isset($transaction->deleted_at) ? (string)$transaction->deleted_at : null,
+
+            // HateOas Implementation for transactions
+            'links' => [
+                [
+                    'rel' => 'self',
+                    'href' => route('transactions.show', $transaction->id),
+                ],
+                [
+                    'rel' => 'transaction.categories',
+                    'href' => route('transactions.categories.index', $transaction->id),
+                ],
+                [
+                    'rel' => 'transaction.seller',
+                    'href' => route('transactions.sellers.index', $transaction->id),
+                ],
+                [
+                    'rel' => 'buyer',
+                    'href' => route('buyers.show', $transaction->buyer_id),
+                ],
+                [
+                    'rel' => 'product',
+                    'href' => route('products.show', $transaction->product_id),
+                ],
+            ]
         ];
     }
 
