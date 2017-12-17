@@ -32,5 +32,6 @@ class AuthServiceProvider extends ServiceProvider
         // Limit of time life
         Passport::tokensExpireIn(Carbon::now()->addMinutes(30));
         Passport::refreshTokensExpireIn(Carbon::now()->addDays(30));
+        Passport::enableImplicitGrant();
     }
 }

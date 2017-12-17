@@ -1,0 +1,1684 @@
+{
+	"id": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+	"name": "ApiRESTful Laravel",
+	"description": "",
+	"order": [
+		"5f1c40b1-6715-87c2-2992-d81ae811fe97",
+		"707ddc87-4009-cd3f-c021-75d4df6a2a22",
+		"609dde06-2f5d-5077-d245-d21619beda26",
+		"ac36f9d0-30e1-a306-3191-6b206cb4a158",
+		"773854fd-a6f8-f595-a0b3-58a1af70dab0",
+		"1f4f3194-07a6-0f66-003c-2132a2a8d96f",
+		"a1880dd0-c584-0e0f-3ddf-9a0402796206",
+		"26039f5b-4a62-5f00-c0fe-3356036c07c7",
+		"c8896771-1076-2b32-9acb-570748fc957c",
+		"d16c0943-e561-3711-ecda-5f75c3b61fb1",
+		"052b3c28-4b5f-f5a8-1953-31d97ecc8d10",
+		"f9016de1-abcf-1430-824c-e191b87631bb",
+		"ae108904-bb83-b916-294a-1c3d0ee01d82",
+		"9d73f1b5-db54-be73-4879-7b459e04d8ee",
+		"1e0e4911-3b11-f12d-47a5-e79bb399f6fc",
+		"31a3b1be-acc2-aaf4-329b-0561961c9e8d",
+		"358d7791-739a-e425-cff8-d3a2e8ba92ee",
+		"825f186a-9d68-ec90-1402-16245e3d9d71",
+		"a6561086-bae5-c213-1eb1-a8a50b87cad6",
+		"f088ff16-ab88-f267-8dc9-d55ac1f64905",
+		"53e7c7ff-6574-c257-a098-a058e7f07e9a",
+		"23076fec-1e1f-1c25-4d3b-b4273f724397",
+		"30e4d9a8-6063-9ffb-535b-673a49e7396e",
+		"e020f600-1914-c26a-1908-35d6d5aff6f5",
+		"5bcc01cc-b94c-6aa5-a9c5-3986ae3d0fc9",
+		"e1802a26-5db1-08c7-12e1-0d74d3fab3e4",
+		"6beb471a-c406-0a62-f84e-12ac95332663",
+		"533a47cf-1285-51c0-d2b7-fb8b60592d13",
+		"451dd5af-5e1d-8c09-3301-63d054e8255a",
+		"f7b30d85-eb7a-2bbd-b3cc-2553525e18b1",
+		"916b4dff-65eb-75e1-49d6-0a2c80a514d4",
+		"6d947e76-146f-2ceb-20bd-b5a8b4c6bffc",
+		"ace78e1c-82eb-5865-6eb1-b0719f5bd7e6",
+		"81c81369-7347-14d5-6fb6-948105ef77bb",
+		"72e02b1c-f727-cb09-2bff-f34e0bf36946",
+		"e2669b77-4c3d-39e2-f6f6-7a017ef00673",
+		"14f21ee3-11d5-3d36-3162-acce73ed014d",
+		"c1e34fcc-b7f3-f9dd-f762-2066db988842",
+		"cf521d57-4402-f25c-3713-c08e9bfb4aaa",
+		"a42d4c20-8d03-0d9e-f005-18d202c96097",
+		"079abdbb-f320-349a-e966-526f7df1b021",
+		"6ced183b-2145-2302-abdc-e907ccac209d",
+		"6358374f-52b8-3507-5f10-5d89fc5b245b",
+		"406a1582-f0f9-61ed-31ff-1aa4c24e46df",
+		"80a91d7c-2ea8-d1fd-d52e-1851acfeaf09",
+		"ce59b69a-bfb1-af42-8dbd-98a2990bff9c",
+		"fad73da4-ac92-fb02-f574-3a9bc6ddff2b",
+		"661ce2de-febc-637c-77f9-fc2271285fcc",
+		"b5102358-8a46-63a1-ceb3-e286b4007d64",
+		"0b739526-a695-0f4f-139e-b1814cdc870c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1513229341944,
+	"owner": "1283738",
+	"public": false,
+	"events": [],
+	"variables": [],
+	"auth": null,
+	"requests": [
+		{
+			"id": "052b3c28-4b5f-f5a8-1953-31d97ecc8d10",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/users/401",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1513304655077,
+			"name": "User - DELETE One User",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "079abdbb-f320-349a-e966-526f7df1b021",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/products/3/transactions",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513407882641,
+			"name": "Product.Transactions GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "0b739526-a695-0f4f-139e-b1814cdc870c",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/transactions/4/sellers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513391175571,
+			"name": "Transaction.Seller GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "14f21ee3-11d5-3d36-3162-acce73ed014d",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/categories/3/buyers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513402722608,
+			"name": "Category.Buyers GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "1e0e4911-3b11-f12d-47a5-e79bb399f6fc",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/buyers/150",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513405445558,
+			"name": "Buyer - GET One Buyer",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "1f4f3194-07a6-0f66-003c-2132a2a8d96f",
+			"headers": "Authorization: \n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/users?sort_by=correo&per_page=30",
+			"queryParams": [
+				{
+					"key": "sort_by",
+					"value": "correo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "per_page",
+					"value": "30",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513511715723,
+			"name": "User - GET Custom pagination",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "23076fec-1e1f-1c25-4d3b-b4273f724397",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/3/transactions",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513404920290,
+			"name": "Seller.Transactions - GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "26039f5b-4a62-5f00-c0fe-3356036c07c7",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/users/verify/pbIAiREhCbUVvYWn1q201geU0XyNhcqMBiGCXALn",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513417576048,
+			"name": "User - Verify GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "30e4d9a8-6063-9ffb-535b-673a49e7396e",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/17/categories",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513405218774,
+			"name": "Seller.Categories - GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "31a3b1be-acc2-aaf4-329b-0561961c9e8d",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/buyers/4/transactions",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513397629015,
+			"name": "Buyer.Transactions GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "358d7791-739a-e425-cff8-d3a2e8ba92ee",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/buyers/4/products",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513397911304,
+			"name": "Buyer.Products GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "406a1582-f0f9-61ed-31ff-1aa4c24e46df",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/products/3/categories/2",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "nameUpdates",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "descriptionUpdate",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"auth": null,
+			"time": 1513409056759,
+			"name": "Product.Categories UPDATE",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "451dd5af-5e1d-8c09-3301-63d054e8255a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/sellers/17/products/1003",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1513412460791,
+			"name": "Seller.Product - DELETE a Product",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "533a47cf-1285-51c0-d2b7-fb8b60592d13",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/sellers/17/products/103",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "nameUpdates",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "descriptionUpdate",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"auth": null,
+			"time": 1513407526797,
+			"name": "Seller.Product - PUT Updating a Product",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "53e7c7ff-6574-c257-a098-a058e7f07e9a",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/1",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513302596425,
+			"name": "Seller - GET One Seller",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "5bcc01cc-b94c-6aa5-a9c5-3986ae3d0fc9",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/2/products",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513410578900,
+			"name": "Seller.Products - GET All products",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "5f1c40b1-6715-87c2-2992-d81ae811fe97",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/oauth/token",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "client_credentials",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "r3gfd28tGjt8ZWGw0tknjpU3QntTJFV3CVfJ7ukb",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513505911205,
+			"name": "Get client Token - client_credentials",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "609dde06-2f5d-5077-d245-d21619beda26",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/oauth/token",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "dJcGbap1owDpWBDSEHG8FZc2WoXYqHYyZsFygRI7",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "dayana38@example.net",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "secret",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513507188213,
+			"name": "Get client Token - password",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "6358374f-52b8-3507-5f10-5d89fc5b245b",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/products/3/categories",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513408203072,
+			"name": "Product.Categories GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "661ce2de-febc-637c-77f9-fc2271285fcc",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/transactions/1",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513316629073,
+			"name": "Transaction - GET One Transaction",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "6beb471a-c406-0a62-f84e-12ac95332663",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/17/products/1004",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "testNameImage2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "testDescriptionImage2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quantity",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "_method",
+					"value": "put",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": null,
+			"time": 1513412650081,
+			"name": "PUT False to update the image",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "6ced183b-2145-2302-abdc-e907ccac209d",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/products/4/buyers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513476368509,
+			"name": "Product.Buyers GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "6d947e76-146f-2ceb-20bd-b5a8b4c6bffc",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/categories",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "titulo",
+					"value": "titulo 1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detalles",
+					"value": "Hola",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": null,
+			"time": 1513498867863,
+			"name": "Category - POST Creating a Category",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "707ddc87-4009-cd3f-c021-75d4df6a2a22",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/oauth/token",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "authorization_code",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "6",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "C0wibtA3CEyiJTusxPeBxp7Wh71xSxZhvQeppA0P",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "redirect_utl",
+					"value": "http://localhost",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "code",
+					"value": "def5020080eb8eb63428b8d8adb6f99d1dd05a37b39e4043a1a41a26007eae2a2c5c167d9389d833a804f601d0127810c3a309ad2c036d65b763a193f1d1652e9d324226d84729cbc4812b0a0715f8a21622988da773ffe3295356cc025927ca141c045b4758f9635a5dcd87a4458c7c934283e5d223e638fcaad7cd0f3f1d0b210a2a188afa4cfd4560feff4eba2cb9a29f14c4c011f8d5b6ac7f694447b4dca46c720310913bd562578be94b8cef4effafd0015d604aeb351a01c4654f70e11f18b5955b8c633e9f32fc37f1f7d2f89f0badcae5daf6ee5e917aaa6382a826f3e95e0c204d01d3b7f8828e9ef3a4df018438c191ac0d951ec431053f16e7c278b65071481c58306c3290050a4f68d4e461aad455c75ddd9c585be8bac2951555397ae7f86ecbe1f70b48e6713d515da8e7e8ca75026103d23b73b281f4eb2001",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513510519207,
+			"name": "Get client Token - authotization_code",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "72e02b1c-f727-cb09-2bff-f34e0bf36946",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/categories/1/sellers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513399395304,
+			"name": "Category.Sellers GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "773854fd-a6f8-f595-a0b3-58a1af70dab0",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijc3YWFkNWNjMDUxYmYzNTRiYmYyNzJiY2JkNDdmMTk0YTEzZmIwOTU1ZDQ1ZWRiNjkxNTdlOThiNTRlZjczMTkyZGY4ZGIxY2QwY2JkMzBlIn0.eyJhdWQiOiI1IiwianRpIjoiNzdhYWQ1Y2MwNTFiZjM1NGJiZjI3MmJjYmQ0N2YxOTRhMTNmYjA5NTVkNDVlZGI2OTE1N2U5OGI1NGVmNzMxOTJkZjhkYjFjZDBjYmQzMGUiLCJpYXQiOjE1MTM1MDkzOTYsIm5iZiI6MTUxMzUwOTM5NiwiZXhwIjoxNTQ1MDQ1Mzk2LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.oa8jJjmaHdRLQXU3NBSLyb_Q0lfDoeFLJcs9RLLI7A16myJokDP-w4UawI5M-ch6poZc3W3Nh60vtZLNi_Gf8ixRm-hxhojt2jpiJfGoCx0_QHhhYiPfSYNtOnpsnteZySy4AoqEWmjjvZ2pJmAh9gaDtZRYODs2hfLGqPNGcSKmtnNXnvG0TVd_Tr4E_xhpggHnxbEI2B9TLN-x4jcBwTWXofvZfAL1UxordUBOJyXVWt3NQ89S5S8nEarz5uaTVOf3erSicYBEKlBzIAzGHodjftxZJS0xNmnAde5W07l_yjW_Gg8QX9fd_XpbM6Z_X_yh2Yu9Lq99VEhtHN3nPIqWxY12nd9I3nwIP74mDN_LX21PrfG9GvghFW0GQkxdazjv_hhsW5ohp4B77_WYjvAZHw7sfJszEPMIgQgEeysvdRZh6QddDRtXtcYGK8rCTL5Fwm7N8Q_PzBl6_W5lLCHb6pmEKXKHoDFygwsYBk7yOpQvYa8UjYjfJnG2xuEpP-bt4ADZx64BB-Og3zQ_LR1LUp3uKglGCKfGVOJvDkw9TnIs3wIXhu6tgfGv-AUDuQ-ZIs9aflirHUGRX9Z1sXXFJp1btVzMeE6x-zKKVl6Sb-buqRaj9SI4os5HRc1iFBHwI7uK-vzs9Dp5G1S7Fd4rrc1VFJEnsr03oAx0XaM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijc3YWFkNWNjMDUxYmYzNTRiYmYyNzJiY2JkNDdmMTk0YTEzZmIwOTU1ZDQ1ZWRiNjkxNTdlOThiNTRlZjczMTkyZGY4ZGIxY2QwY2JkMzBlIn0.eyJhdWQiOiI1IiwianRpIjoiNzdhYWQ1Y2MwNTFiZjM1NGJiZjI3MmJjYmQ0N2YxOTRhMTNmYjA5NTVkNDVlZGI2OTE1N2U5OGI1NGVmNzMxOTJkZjhkYjFjZDBjYmQzMGUiLCJpYXQiOjE1MTM1MDkzOTYsIm5iZiI6MTUxMzUwOTM5NiwiZXhwIjoxNTQ1MDQ1Mzk2LCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.oa8jJjmaHdRLQXU3NBSLyb_Q0lfDoeFLJcs9RLLI7A16myJokDP-w4UawI5M-ch6poZc3W3Nh60vtZLNi_Gf8ixRm-hxhojt2jpiJfGoCx0_QHhhYiPfSYNtOnpsnteZySy4AoqEWmjjvZ2pJmAh9gaDtZRYODs2hfLGqPNGcSKmtnNXnvG0TVd_Tr4E_xhpggHnxbEI2B9TLN-x4jcBwTWXofvZfAL1UxordUBOJyXVWt3NQ89S5S8nEarz5uaTVOf3erSicYBEKlBzIAzGHodjftxZJS0xNmnAde5W07l_yjW_Gg8QX9fd_XpbM6Z_X_yh2Yu9Lq99VEhtHN3nPIqWxY12nd9I3nwIP74mDN_LX21PrfG9GvghFW0GQkxdazjv_hhsW5ohp4B77_WYjvAZHw7sfJszEPMIgQgEeysvdRZh6QddDRtXtcYGK8rCTL5Fwm7N8Q_PzBl6_W5lLCHb6pmEKXKHoDFygwsYBk7yOpQvYa8UjYjfJnG2xuEpP-bt4ADZx64BB-Og3zQ_LR1LUp3uKglGCKfGVOJvDkw9TnIs3wIXhu6tgfGv-AUDuQ-ZIs9aflirHUGRX9Z1sXXFJp1btVzMeE6x-zKKVl6Sb-buqRaj9SI4os5HRc1iFBHwI7uK-vzs9Dp5G1S7Fd4rrc1VFJEnsr03oAx0XaM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/users",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513509434006,
+			"name": "User - GET All Users",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "80a91d7c-2ea8-d1fd-d52e-1851acfeaf09",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/products/3/categories/2",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1513409287255,
+			"name": "Product.Categories DELETE",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "81c81369-7347-14d5-6fb6-948105ef77bb",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/categories/1/products",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513399186476,
+			"name": "Category.Products GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "825f186a-9d68-ec90-1402-16245e3d9d71",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/buyers/20/sellers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513398600720,
+			"name": "Buyer.Sellers GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "916b4dff-65eb-75e1-49d6-0a2c80a514d4",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/categories/1",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513315338961,
+			"name": "Category - GET One Category",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "9d73f1b5-db54-be73-4879-7b459e04d8ee",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/buyers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513301421733,
+			"name": "Buyer - GET All Buyers",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "a1880dd0-c584-0e0f-3ddf-9a0402796206",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/users?esVerificado=1&esAdministrador=true&sort_by=nombre",
+			"queryParams": [
+				{
+					"key": "esVerificado",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "esAdministrador",
+					"value": "true",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sort_by",
+					"value": "nombre",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513491939163,
+			"name": "User - GET Filters and Sort",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "a42d4c20-8d03-0d9e-f005-18d202c96097",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/products/14",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513411233538,
+			"name": "Product - GET One Product",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "a6561086-bae5-c213-1eb1-a8a50b87cad6",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/buyers/17/categories",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513398874443,
+			"name": "Buyer.Categories GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "ac36f9d0-30e1-a306-3191-6b206cb4a158",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/oauth/authorize?client_id=6&redirect_url=http://localhost&response_type=code",
+			"queryParams": [
+				{
+					"key": "client_id",
+					"value": "6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "redirect_url",
+					"value": "http://localhost",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "response_type",
+					"value": "code",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "dJcGbap1owDpWBDSEHG8FZc2WoXYqHYyZsFygRI7",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "dayana38@example.net",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "secret",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513510173186,
+			"name": "Get Code",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "ace78e1c-82eb-5865-6eb1-b0719f5bd7e6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/categories/5",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "nameUpdates",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "descriptionUpdate",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"auth": null,
+			"time": 1513315882209,
+			"name": "Category - PUT Updating a Category",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "ae108904-bb83-b916-294a-1c3d0ee01d82",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/users/1003",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "holita",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "new3@email.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"auth": null,
+			"time": 1513417028461,
+			"name": "User - PUT Updating an User",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "b5102358-8a46-63a1-ceb3-e286b4007d64",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/transactions/4/categories",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513390981656,
+			"name": "Transaction.Category GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "c1e34fcc-b7f3-f9dd-f762-2066db988842",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/categories/31",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1513315950386,
+			"name": "User - DELETE One User copy",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "c8896771-1076-2b32-9acb-570748fc957c",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/users/1003/resend",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513417062510,
+			"name": "User - Resend Verification",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "ce59b69a-bfb1-af42-8dbd-98a2990bff9c",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/products/14/buyers/556/transactions",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "quantity",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": null,
+			"time": 1513411308981,
+			"name": "Product.Buyers.Transaction POST",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "cf521d57-4402-f25c-3713-c08e9bfb4aaa",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ4NzQxNjQ1MzE5OTQwMTJiYzQ0MGVjNjZjMmFlYjM5NjVjZmVjYWFiOGQ5OWNkMmVkYzQ2ZmQ2Y2VmMGVlNTYzZjBhOWNkZjY5NmI2MDc4In0.eyJhdWQiOiIzIiwianRpIjoiNDg3NDE2NDUzMTk5NDAxMmJjNDQwZWM2NmMyYWViMzk2NWNmZWNhYWI4ZDk5Y2QyZWRjNDZmZDZjZWYwZWU1NjNmMGE5Y2RmNjk2YjYwNzgiLCJpYXQiOjE1MTM1MDU5MTUsIm5iZiI6MTUxMzUwNTkxNSwiZXhwIjoxNTEzNTA3NzE1LCJzdWIiOiIiLCJzY29wZXMiOltdfQ.JKmNioN_sJ7doXKbz6iaZhrsvpiqX5WzYnGHc3QnwPZnerijtIOquziiHiC_jT0EOpxEajNpbsx4oAF8HJOtrFw9y_cQnXlW2q_K_uurnHNuWc7jgU30SZcr-MJJjxTp9odqF50ZWvruVOspTpTUOuD60JLx4BRnxC5nXD_kvHUTYtJvOv1rTTyjQ7OM-AB9-S2ke-Yx54hM_hFHn-4kCzJwLdqEFE6JOcFSnZDJ3Zuo2B1sNgbv_CfkBV2VXQ4JrL4i6I8MD7DHtuFImh6nsrczT4ioWxjGEOi8yy-bIOijfPn8yBM3NTdca9PaQt7Nmh-r9XejYgQVSpL0LhKnakgqB_Ef1hsEnUaGDztWBNhj-RMe_CxcnR7AIT9WdcxHNgKNrK7FF8WG475po3GTMyG-H9hpulWyFTHLusAD_KIhfYs9GV8MV75mKPqtqBfl_gnit-iPNmb3I7FyQx3-XPh-dM7H560YP4mVMK4vWfocADr25b_l-IWyV7duFpfHbV5DpmBid3IvN3uyS8PdGGGjGg2EXwGRVLwAMl99bsHLSq5tGQzHVvx78x-xNvxpVrzVS_lnNuqZvLioWUeWXAo4aoenrhiVus24ycHe_Suycx8Dti2LZOqM2i7w9VLQAgqR0GQJhjtgoAnjxUpsnKZrAT8JGu8LTCU_NiWHF9U\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ4NzQxNjQ1MzE5OTQwMTJiYzQ0MGVjNjZjMmFlYjM5NjVjZmVjYWFiOGQ5OWNkMmVkYzQ2ZmQ2Y2VmMGVlNTYzZjBhOWNkZjY5NmI2MDc4In0.eyJhdWQiOiIzIiwianRpIjoiNDg3NDE2NDUzMTk5NDAxMmJjNDQwZWM2NmMyYWViMzk2NWNmZWNhYWI4ZDk5Y2QyZWRjNDZmZDZjZWYwZWU1NjNmMGE5Y2RmNjk2YjYwNzgiLCJpYXQiOjE1MTM1MDU5MTUsIm5iZiI6MTUxMzUwNTkxNSwiZXhwIjoxNTEzNTA3NzE1LCJzdWIiOiIiLCJzY29wZXMiOltdfQ.JKmNioN_sJ7doXKbz6iaZhrsvpiqX5WzYnGHc3QnwPZnerijtIOquziiHiC_jT0EOpxEajNpbsx4oAF8HJOtrFw9y_cQnXlW2q_K_uurnHNuWc7jgU30SZcr-MJJjxTp9odqF50ZWvruVOspTpTUOuD60JLx4BRnxC5nXD_kvHUTYtJvOv1rTTyjQ7OM-AB9-S2ke-Yx54hM_hFHn-4kCzJwLdqEFE6JOcFSnZDJ3Zuo2B1sNgbv_CfkBV2VXQ4JrL4i6I8MD7DHtuFImh6nsrczT4ioWxjGEOi8yy-bIOijfPn8yBM3NTdca9PaQt7Nmh-r9XejYgQVSpL0LhKnakgqB_Ef1hsEnUaGDztWBNhj-RMe_CxcnR7AIT9WdcxHNgKNrK7FF8WG475po3GTMyG-H9hpulWyFTHLusAD_KIhfYs9GV8MV75mKPqtqBfl_gnit-iPNmb3I7FyQx3-XPh-dM7H560YP4mVMK4vWfocADr25b_l-IWyV7duFpfHbV5DpmBid3IvN3uyS8PdGGGjGg2EXwGRVLwAMl99bsHLSq5tGQzHVvx78x-xNvxpVrzVS_lnNuqZvLioWUeWXAo4aoenrhiVus24ycHe_Suycx8Dti2LZOqM2i7w9VLQAgqR0GQJhjtgoAnjxUpsnKZrAT8JGu8LTCU_NiWHF9U",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/products",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513506015878,
+			"name": "Product - GET All Products",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "d16c0943-e561-3711-ecda-5f75c3b61fb1",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/users/1005",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"auth": null,
+			"time": 1513417582271,
+			"name": "User - GET One User",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "e020f600-1914-c26a-1908-35d6d5aff6f5",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/3/buyers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513405431152,
+			"name": "Seller.Buyers - GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "e1802a26-5db1-08c7-12e1-0d74d3fab3e4",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers/17/products",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "titulo",
+					"value": "testNameImage",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detalles",
+					"value": "testDescriptionImage",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "disponibles",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "a.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": null,
+			"time": 1513498915286,
+			"name": "Seller.Product - POST Creating a Product",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "e2669b77-4c3d-39e2-f6f6-7a017ef00673",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/categories/1/transactions",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513401491452,
+			"name": "Category.Transactions GET",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "f088ff16-ab88-f267-8dc9-d55ac1f64905",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/sellers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513302517312,
+			"name": "Seller - GET All Sellers",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "f7b30d85-eb7a-2bbd-b3cc-2553525e18b1",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ4NzQxNjQ1MzE5OTQwMTJiYzQ0MGVjNjZjMmFlYjM5NjVjZmVjYWFiOGQ5OWNkMmVkYzQ2ZmQ2Y2VmMGVlNTYzZjBhOWNkZjY5NmI2MDc4In0.eyJhdWQiOiIzIiwianRpIjoiNDg3NDE2NDUzMTk5NDAxMmJjNDQwZWM2NmMyYWViMzk2NWNmZWNhYWI4ZDk5Y2QyZWRjNDZmZDZjZWYwZWU1NjNmMGE5Y2RmNjk2YjYwNzgiLCJpYXQiOjE1MTM1MDU5MTUsIm5iZiI6MTUxMzUwNTkxNSwiZXhwIjoxNTEzNTA3NzE1LCJzdWIiOiIiLCJzY29wZXMiOltdfQ.JKmNioN_sJ7doXKbz6iaZhrsvpiqX5WzYnGHc3QnwPZnerijtIOquziiHiC_jT0EOpxEajNpbsx4oAF8HJOtrFw9y_cQnXlW2q_K_uurnHNuWc7jgU30SZcr-MJJjxTp9odqF50ZWvruVOspTpTUOuD60JLx4BRnxC5nXD_kvHUTYtJvOv1rTTyjQ7OM-AB9-S2ke-Yx54hM_hFHn-4kCzJwLdqEFE6JOcFSnZDJ3Zuo2B1sNgbv_CfkBV2VXQ4JrL4i6I8MD7DHtuFImh6nsrczT4ioWxjGEOi8yy-bIOijfPn8yBM3NTdca9PaQt7Nmh-r9XejYgQVSpL0LhKnakgqB_Ef1hsEnUaGDztWBNhj-RMe_CxcnR7AIT9WdcxHNgKNrK7FF8WG475po3GTMyG-H9hpulWyFTHLusAD_KIhfYs9GV8MV75mKPqtqBfl_gnit-iPNmb3I7FyQx3-XPh-dM7H560YP4mVMK4vWfocADr25b_l-IWyV7duFpfHbV5DpmBid3IvN3uyS8PdGGGjGg2EXwGRVLwAMl99bsHLSq5tGQzHVvx78x-xNvxpVrzVS_lnNuqZvLioWUeWXAo4aoenrhiVus24ycHe_Suycx8Dti2LZOqM2i7w9VLQAgqR0GQJhjtgoAnjxUpsnKZrAT8JGu8LTCU_NiWHF9U\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ4NzQxNjQ1MzE5OTQwMTJiYzQ0MGVjNjZjMmFlYjM5NjVjZmVjYWFiOGQ5OWNkMmVkYzQ2ZmQ2Y2VmMGVlNTYzZjBhOWNkZjY5NmI2MDc4In0.eyJhdWQiOiIzIiwianRpIjoiNDg3NDE2NDUzMTk5NDAxMmJjNDQwZWM2NmMyYWViMzk2NWNmZWNhYWI4ZDk5Y2QyZWRjNDZmZDZjZWYwZWU1NjNmMGE5Y2RmNjk2YjYwNzgiLCJpYXQiOjE1MTM1MDU5MTUsIm5iZiI6MTUxMzUwNTkxNSwiZXhwIjoxNTEzNTA3NzE1LCJzdWIiOiIiLCJzY29wZXMiOltdfQ.JKmNioN_sJ7doXKbz6iaZhrsvpiqX5WzYnGHc3QnwPZnerijtIOquziiHiC_jT0EOpxEajNpbsx4oAF8HJOtrFw9y_cQnXlW2q_K_uurnHNuWc7jgU30SZcr-MJJjxTp9odqF50ZWvruVOspTpTUOuD60JLx4BRnxC5nXD_kvHUTYtJvOv1rTTyjQ7OM-AB9-S2ke-Yx54hM_hFHn-4kCzJwLdqEFE6JOcFSnZDJ3Zuo2B1sNgbv_CfkBV2VXQ4JrL4i6I8MD7DHtuFImh6nsrczT4ioWxjGEOi8yy-bIOijfPn8yBM3NTdca9PaQt7Nmh-r9XejYgQVSpL0LhKnakgqB_Ef1hsEnUaGDztWBNhj-RMe_CxcnR7AIT9WdcxHNgKNrK7FF8WG475po3GTMyG-H9hpulWyFTHLusAD_KIhfYs9GV8MV75mKPqtqBfl_gnit-iPNmb3I7FyQx3-XPh-dM7H560YP4mVMK4vWfocADr25b_l-IWyV7duFpfHbV5DpmBid3IvN3uyS8PdGGGjGg2EXwGRVLwAMl99bsHLSq5tGQzHVvx78x-xNvxpVrzVS_lnNuqZvLioWUeWXAo4aoenrhiVus24ycHe_Suycx8Dti2LZOqM2i7w9VLQAgqR0GQJhjtgoAnjxUpsnKZrAT8JGu8LTCU_NiWHF9U",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "apirestful.dev/categories",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513505977512,
+			"name": "Category - GET All Categories",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "f9016de1-abcf-1430-824c-e191b87631bb",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/users",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "testName",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "test49@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password_confirmation",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"auth": null,
+			"time": 1513470705406,
+			"name": "User - POST Creating an User",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "fad73da4-ac92-fb02-f574-3a9bc6ddff2b",
+			"headers": "",
+			"headerData": [],
+			"url": "apirestful.dev/transactions",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": {
+				"type": "noauth"
+			},
+			"time": 1513316599701,
+			"name": "Transaction - GET All Transactions",
+			"description": "",
+			"collectionId": "3f38a38e-a744-683d-9e70-b11aaf824e6a",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		}
+	]
+}
