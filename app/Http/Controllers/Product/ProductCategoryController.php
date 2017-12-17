@@ -9,6 +9,11 @@ use App\Http\Controllers\ApiController;
 
 class ProductCategoryController extends ApiController
 {
+    public function __construct()
+    {
+        // Adding the authentication in the api with passport
+        $this->middleware('client.credentials')->only(['index']);
+    }
     /**
      * Display a listing of the resource.
      *
