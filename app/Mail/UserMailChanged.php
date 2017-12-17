@@ -24,7 +24,6 @@ class UserMailChanged extends Mailable
         $this->user = $user;
     }
 
-
     /**
      * Build the message.
      *
