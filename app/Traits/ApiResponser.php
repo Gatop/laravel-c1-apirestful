@@ -3,6 +3,7 @@
 namespace App\Traits;
 
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -29,13 +30,17 @@ trait ApiResponser
 
         $transformer = $collection->first()->transformer;
 
-        // Filters the data based on the attribute query sended in the request
+        // Filters the data based by query sent in the request
         $collection = $this->filterData($collection, $transformer);
         // Sorts the collection using the transform mapping of the attributes
         $collection = $this->sortData($collection, $transformer);
         // Paginates the collection before the transform and the response
         $collection = $this->paginate($collection);
         $collection = $this->transformData($collection, $transformer);
+
+        // System to cache the response
+        // Avoiding the DB OverCharge
+        $collection = $this->cacheResponse($collection);
 
         return $this->successResponse($collection, $code);
     }
@@ -56,7 +61,7 @@ trait ApiResponser
         return $this->successResponse(['data' => $message], $code);
     }
 
-    // Sorts a collections by the attribute sended as 'sort_by'
+    // Sorts a collections by a sent attribute as 'sort_by'
     protected function sortData($collection, $transformer)
     {
         // we use the helper request to get the value sort_by
@@ -71,7 +76,7 @@ trait ApiResponser
         return $collection;
     }
 
-    // Filter a collection based on the parameters sended in the request as 'query'
+    // Filter a collection based on the parameters sent in the request as 'query'
     // Only if the value is equal
     protected function filterData(Collection $collection, $transformer)
     {
@@ -92,7 +97,7 @@ trait ApiResponser
         return $transformation->toArray();
     }
 
-    // Paginates a collection with the values sended
+    // Paginates a collection with the sent values
         protected function paginate(Collection $collection)
     {
         $rules = [
@@ -118,8 +123,30 @@ trait ApiResponser
             'path' => LengthAwarePaginator::resolveCurrentPath(),
         ]);
 
-        // Allowing the others parameters sended in the request (sortby, filters)
+        // Allowing the others parameters passed in the request (sortby, filters)
         $paginated->appends(request()->all());
         return $paginated;
+    }
+
+    // Cache of the response
+    protected function cacheResponse($data)
+    {
+        // Get the actual url
+        $url = request()->url();
+
+        // Getting the sent options in the response
+        $queryParams = request()->query();
+        // Orders an array depending on the key
+        ksort($queryParams);
+        $queryString = http_build_query($queryParams);
+
+        // Building the object to cache (including the parameters)
+        $fullUrl = "{$url}?{$queryString}";
+
+        // Method to review if is necessary to create a cache
+        // Second parameter is the time (30 seconds)
+        return Cache::remember($fullUrl, 30/60, function() use($data) {
+            return $data;
+        });
     }
 }
